@@ -1,0 +1,66 @@
+
+String bidder
+int bidAmount
+int MaxBid
+
+Getters and setters
+
+String bidder = txtBidder.getText();
+       int BidAmount
+       int MaxBid
+       int MinBid
+ 
+btnAddItemAndBid {     
+
+if (CurrentBid < MinBid){
+    "Bid is too low"
+}
+
+if (BidAmount > HighBid){
+           txtHighestAmount.setText(String.valueOf(BidAmount));
+           txtHighestBidder.setText(bidder);
+           HighBid = BidAmount; 
+       }
+
+input = item name, bidder name, bid
+
+method to insert bid and increment BidCount
+
+}
+public class AuctionLinkListStack implements StackInterface {
+    private Stack theStack;
+    
+    public StackClass() {
+        theStack = new Stack();
+    }
+
+    @Override
+    public int size() {
+        return theStack.size();
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return theStack.empty();
+    }
+
+    @Override
+    public void push(Object e) {
+       theStack.push(e);
+    }
+
+    @Override
+    public Object top() {
+       return theStack.peek();
+    }
+
+    @Override
+    public Object pop() {
+        return theStack.pop();
+    }
+    
+}
+
+Bids = (String)theStack.pop();
+
+lst.add.(Bids)
